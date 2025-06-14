@@ -1,4 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-    <rect width="32" height="32" fill="white"/>
-    <text x="16" y="22" font-family="Monaco, 'Courier New', monospace" font-size="16" font-weight="bold" text-anchor="middle" fill="black">01</text>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- White background -->
+    <rect width="200" height="200" fill="white" />
+    <!-- Row 1 (top) -->
+    <circle cx="25" cy="25" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="75" cy="25" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="125" cy="25" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="175" cy="25" r="20" fill="black" />
+
+    <!-- Row 2 -->
+    <circle cx="25" cy="75" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="75" cy="75" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="125" cy="75" r="20" fill="black" />
+    <circle cx="175" cy="75" r="20" fill="black" />
+
+    <!-- Row 3 -->
+    <circle cx="25" cy="125" r="20" fill="white" stroke="black" stroke-width="2" />
+    <circle cx="75" cy="125" r="20" fill="black" />
+    <circle cx="125" cy="125" r="20" fill="black" />
+    <circle cx="175" cy="125" r="20" fill="black" />
+
+    <!-- Row 4 (bottom) -->
+    <circle cx="25" cy="175" r="20" fill="black" />
+    <circle cx="75" cy="175" r="20" fill="black" />
+    <circle cx="125" cy="175" r="20" fill="black" />
+    <circle cx="175" cy="175" r="20" fill="black" />
 </svg>
